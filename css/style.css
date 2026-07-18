@@ -1,0 +1,174 @@
+/* =============================
+   V-Pro — Custom Styles
+   ============================= */
+
+/* --- Navigation t815 --- */
+@supports (overflow:-webkit-marquee) and (justify-content:inherit) {
+  #rec798373121 .t-menu__link-item,
+  #rec798373121 .t-menu__link-item.t-active {
+    opacity: 1 !important;
+  }
+}
+
+#rec798373121 .t815__logo {
+  color: #0011ff;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+#rec798373121 .t815__logo-descr {
+  font-weight: 400;
+}
+
+#rec798373121 .t815__text_top {
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+#rec798373121 .t815__text_bottom {
+  color: #9e9e9e;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/* --- Cover buttons (rec798373122) --- */
+#rec798373122 .t-btnflex.t-btnflex_type_button {
+  color: #ffffff;
+  background-color: #0051ff;
+  border-style: none !important;
+  box-shadow: none !important;
+  transition-duration: 0.2s;
+  transition-property: background-color, color, border-color, box-shadow, opacity, transform;
+  transition-timing-function: ease-in-out;
+}
+
+#rec798373122 .t-btnflex.t-btnflex_type_button2 {
+  color: #000000;
+  background-color: #e0e0e0;
+  border-style: none !important;
+  box-shadow: none !important;
+  transition-duration: 0.2s;
+  transition-property: background-color, color, border-color, box-shadow, opacity, transform;
+  transition-timing-function: ease-in-out;
+}
+
+/* --- Floating WhatsApp button (rec799289052) --- */
+#rec799289052 .t-btnflex.t-btnflex_type_button {
+  color: #ffffff;
+  background-color: #23b20f;
+  border-style: solid !important;
+  border-color: #000000 !important;
+  --border-width: 0px;
+  border-radius: 4px;
+  box-shadow: none !important;
+  text-transform: uppercase;
+  transition-duration: 0.2s;
+  transition-property: background-color, color, border-color, box-shadow, opacity, transform;
+  transition-timing-function: ease-in-out;
+}
+
+/* --- Floating Call button (rec799292509) --- */
+#rec799292509 .t-btnflex.t-btnflex_type_button {
+  color: #ffffff;
+  background-color: #1f5afb;
+  border-style: solid !important;
+  border-color: #000000 !important;
+  --border-width: 0px;
+  border-radius: 4px;
+  box-shadow: none !important;
+  text-transform: uppercase;
+  transition-duration: 0.2s;
+  transition-property: background-color, color, border-color, box-shadow, opacity, transform;
+  transition-timing-function: ease-in-out;
+}
+
+/* --- Mobile fixed call button (rec799304866) --- */
+#rec799304866 .t-btnflex.t-btnflex_type_button {
+  color: #ffffff;
+  background-color: #1e56f1;
+  border-style: none !important;
+  border-radius: 50px;
+  box-shadow: none !important;
+  transition-duration: 0.2s;
+  transition-property: background-color, color, border-color, box-shadow, opacity, transform;
+  transition-timing-function: ease-in-out;
+}
+
+/* --- Services section (rec798373125) --- */
+.t-section__descr {
+  max-width: 560px;
+}
+
+#rec798373125 .t-section__title {
+  margin-bottom: 40px;
+}
+
+#rec798373125 .t-section__descr {
+  margin-bottom: 105px;
+}
+
+@media screen and (max-width: 960px) {
+  #rec798373125 .t-section__title {
+    margin-bottom: 20px;
+  }
+  #rec798373125 .t-section__descr {
+    margin-bottom: 45px;
+  }
+}
+
+/* --- Slider bullets (rec798394576) --- */
+#rec798394576 .t-slds__bullet_active .t-slds__bullet_body {
+  background-color: #222 !important;
+}
+
+#rec798394576 .t-slds__bullet:hover .t-slds__bullet_body {
+  background-color: #222 !important;
+}
+
+/* --- Footer (rec798373138) --- */
+#rec798373138 .t134__title,
+#rec798373138 .t134__descr {
+  color: #ffffff;
+}
+
+#rec798373138 .t134__link {
+  color: #ffffff;
+}
+
+#rec798373138 .t134__logo {
+  color: #ffffff;
+}
+
+/* --- Hidden call buttons (rec799308171, rec799308037) --- */
+#rec799308171 .t-btnflex.t-btnflex_type_button,
+#rec799308037 .t-btnflex.t-btnflex_type_button {
+  color: #ffffff;
+  background-color: #241ec0;
+  border-style: solid !important;
+  border-color: #000000 !important;
+  --border-width: 0px;
+  border-radius: 4px;
+  box-shadow: none !important;
+  text-transform: uppercase;
+  transition-duration: 0.2s;
+  transition-property: background-color, color, border-color, box-shadow, opacity, transform;
+  transition-timing-function: ease-in-out;
+}
+
+/* --- Page animation on first visit --- */
+@media screen and (min-width: 980px) {
+  .t-records {
+    opacity: 0;
+  }
+
+  .t-records_animated {
+    -webkit-transition: opacity ease-in-out 0.2s;
+    -moz-transition: opacity ease-in-out 0.2s;
+    -o-transition: opacity ease-in-out 0.2s;
+    transition: opacity ease-in-out 0.2s;
+  }
+
+  .t-records.t-records_visible {
+    opacity: 1;
+  }
+}
